@@ -1,0 +1,234 @@
+/* RESET */
+
+* {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul,
+ol menu {
+    list-style: none;
+}
+
+/* LAYOUT */
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.container-mini {
+    max-width: 600px;
+    height: 200px;
+    padding-top: 15px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.container-mini .row {
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    height: 200px;
+}
+
+.row-header {
+    display: flex;
+    flex-wrap: wrap;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.row-buttons {
+    justify-content: center;
+    gap: 20px;
+}
+
+.submit
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row-reverse {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+}
+
+
+.flex {
+    display: flex;
+}
+
+.flex-center {
+    justify-content: center;
+}
+
+.flex-start {
+    justify-content: flex-start;
+}
+
+.flex-end {
+    justify-content: flex-end;
+}
+
+.align-items{
+    align-items: center;
+}
+
+.col-1_4 {
+    width: calc(100% / 4);
+    height: 50px;
+}
+
+.col-2_4 {
+    width: calc(100% / 2);
+    height: 50px;
+}
+
+.col-40 {
+    width: 40%;
+    height: 400px;
+    background-color: lightpink;
+}
+
+
+.col-60 {
+    width: 60%;
+    height: 400px;
+    background-color: skyblue;
+}
+
+.col-100 {
+    width: 100%;
+    height: 400px;
+}
+
+.col-33 {
+    width: calc(100% / 3 - 10px);
+    margin: 0 5px;
+}
+
+.col-1_6 {
+    width: calc(100% / 6);
+    height: 300px;
+}
+
+.col-2_6 {
+    width: calc((100% / 6) * 2);
+}
+
+.row-footer {
+    padding: 15px 0 ;
+    justify-content: space-between;
+}
+
+.submit {
+    border: 1px dashed;
+    font-size: 15px;
+    padding: 5px;
+}
+
+.buttons {
+    border: none;
+    border-radius: 30px;
+    padding: 0 10px;
+    font-size: 13px;
+}
+
+/* STILI GENERALI */
+
+.page-header {
+    padding: 20px 0;
+    margin-bottom: 20px;
+    background-image: url(../img/jumbo.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+
+
+
+.nav .row {
+    display: flex;
+	justify-content: space-between;
+}
+
+.nav .main-menu {
+	display: flex;
+	align-items: center;
+	gap: 16px;
+    color: white;
+}
+
+
+.main-header {
+    border: 2px dashed rgb(0, 0, 0);
+    padding: 10px;
+    background-color: orange;
+}
+
+.section {
+    padding: 30px;
+}
+
+.border {
+    border-bottom: 3px solid white;
+}
+
+
+
+/* DEBUG */
+
+.debug .bg-blue {
+    background-color: blue;
+}
+
+.debug .bg-pink {
+    background-color: pink;
+}
+
+.debug .bg-red {
+    background-color: red;
+}
+
+.debug .bg-grey {
+    background-color: lightgrey;
+}
+
+.debug .bg-pink {
+    background-color: pink;
+}
+
+.debug .bg-green {
+    background-color: green;
+}
+
+.debug .bg-black {
+    background-color: rgb(51, 45, 45);
+}
+
+.debug .bg-salmon {
+    background-color: salmon;
+}
+
+.debug .bg-white {
+    background-color: white;
+}
+
+.debug .bg-header {
+    background-color: aqua;
+}
+
+.debug .border-dashed {
+    border: 2px dashed black;
+}
