@@ -148,6 +148,13 @@ body {
 
 .col-2_6 {
     width: calc((100% / 6) * 2);
+    font-size: 19px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 170px;
+    gap: 5px;
+   
+    
 }
 
 .row-footer {
@@ -159,6 +166,19 @@ body {
     border: 1px dashed;
     font-size: 15px;
     padding: 5px;
+}
+
+.col-2_6 .text-blu {
+    display: flex;
+    align-items: center;
+}
+
+.col-2_6 span {
+    font-size: 12px;
+}
+
+.footer-container {
+    border-bottom: 0.5px solid #7389DA;
 }
 
 /* STILI GENERALI */
@@ -216,8 +236,21 @@ body {
     border: none;
     border-radius: 15px;
     padding: 10px;
-
 }
+
+.text-blu {
+    color: #7389DA;
+}
+
+.flag {
+    height: 20px;
+}
+
+.text-white {
+    color: white;
+}
+
+
 
 /* DEBUG */
 
